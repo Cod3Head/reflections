@@ -1,0 +1,3 @@
+It is very important to use remote repositories when collaborating.  Whenever
+one might want to make changes public, using a remote repository is useful
+but if not it might be better to keep the repository local.
