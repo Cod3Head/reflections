@@ -1,0 +1,35 @@
+Using diffs to compare files
+
+using diffs is a great way of finding differences between two different versions of a file
+it shows only the lines that changed between versions with the changes made to them
+this is much better than comparing files manually.
+
+Having acces to the entire history of a file can make you an efficient programmer.
+Maybe a previous version contains something that needs to be present in the newer version
+or maybe something in the new version isnt working correctly.
+Being able to see into previous versions allows for relatively quick comparisons and
+allows for faster decision making and version implementation.
+
+The pros and cons of manually choosing when to create a commit is that it allows 
+the developer to only commit when a set of logical changes are made
+making commits easier to distinguish and very useful when checking a 
+developments history.  The con is that the possibility exits to forget to commit
+and loose the version that has been worked on of the file.
+
+Git is oriented to software development, it is convenient to save multiple files
+at the same time when working with such and this is why Git allows this function.
+Google docs is oriented towards office productivity in which usually files are 
+not necessarilly interelated and can be worked separately.  Tracking files individually
+results in a much more convenient application in this case.
+
+Git log and Git diff are very useful commands.  Git logs shows the history of all
+made commits on a repository while git diff shows the difference between any
+two chosen id's in the log or history.
+
+Being able to snap back in time to previous versions is the real advantage 
+behind technology such as git.  It allows a developer to confidently make changes
+test out code and if it simply ends up being a mess one can checkout previous working
+versions of the code.
+
+Id like to use git effectively in all my projects.  I really need to master git
+in order to be a more efficient software engineer.

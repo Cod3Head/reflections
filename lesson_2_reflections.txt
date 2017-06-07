@@ -1,0 +1,7 @@
+When a new repository is initialized git creates all metadata necessary to track
+the history of all files in the current directory.  this files are hidden.  A 
+repository needs to be created in order to track a projects differents version.  
+To effectively apply version control.
+
+The staging area is an uncertain area, made to make sure everything is in 
+order before commiting and making changes 'Final'
