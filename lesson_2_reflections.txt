@@ -4,4 +4,25 @@ repository needs to be created in order to track a projects differents version.
 To effectively apply version control.
 
 The staging area is an uncertain area, made to make sure everything is in 
-order before commiting and making changes 'Final'
+order before commiting and making changes 'Final'.
+
+Using git diff with no arguments compares the staging area to the working directory.  
+Therefore the process of deciding which files to commit logically results in
+an easier process.
+
+Branches seem really helpful.  Being able to experiment while having working
+versions of a file on a master branch is a real advantage.  It is really helpful
+the speed in which this can be done when using git.
+
+Diagrams are really helpful in understanding at which point changes are made
+this migh seem to be particullarly useful when working in teams where another
+developer might make changes at some point and then being able to seee between which commits and in what branches the changes where made.
+
+When merging two branches together all commits made two the both branches separately
+will be available within the current branch.  It is represented logically in the diagram
+since all changes made in both branches will be combined into a single node.
+
+The Pro of git automatic merging is that it makes the process of combining code and
+project files quite seamless.  The con is that if any of the commits being merged
+contains an error that git does not detect as a merge conflict, this errro will 
+be output into the newly merged node too.

@@ -1,3 +1,32 @@
 It is very important to use remote repositories when collaborating.  Whenever
 one might want to make changes public, using a remote repository is useful
 but if not it might be better to keep the repository local.
+
+It would create lots of conflicts if Git continuosly pulled files from the
+remote repository.  Changes made locally might be lost proving really tedious 
+and ultimately time consuming.
+
+The difference between forks and clones is that a fork makes a copy of the repository
+inside Git hub.  This repository is made quickly available through the Github
+servers; a clone on the other hand makes copy of a repository with a known
+web adress directly to the computer, but not on GitHub.  Branches are parallel
+paths, usually taken to work in an experimental maner before implementing. A branch is 
+usually evaluated through Git, before implementing changes into the master branch
+since the master branch is usually the one merged and pushed onto Github.
+
+The benefit of having a copy of the last known state of the remote stored locally is
+that it allows the developer a means of comparing changes locally.  This can be done 
+while offline; especially useful if your'e in a plane, for example.  
+
+Without using gitHub the best way to work would be side by sided with a small group,
+focused on one task.  This group would have a presenter, which would rotate every time
+to expose their tasks, how it fits into the project and what are their concerns related
+to other areas.  The downside to this strategy is the amount of time that can be wasted
+if any issues arise within a meeting of if code is dependant on another team member
+inside another team group, they would have to wait for the issue to be resolved
+by that same member in a possibly indefinite amount of time.  Git and GitHub
+really make this process much smoother.  It allows developers to remain at their locations
+and work as a group effectively in much less time.
+
+Changes are obviously made to a separate branch rather the master branch in order to
+maintain a presentable product that wont break.  
